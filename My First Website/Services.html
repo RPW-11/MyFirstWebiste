@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Rai's Gallery</title>
+        <link rel="stylesheet" href="firstweb.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header2">
+            <nav>
+                <a href="myfirstwebsite.html"><img src="IMAGES/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="myfirstwebsite.html">Home</a></li>
+                        <li><a href="CompanyProfile.html">Profile</a></li>
+                        <li><a href="Services.html">Services</a></li>
+                        <li><a href="Collaboration.html">Collaboration</a></li>
+                        <li><a href="Creator.html">Creator</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Services</h1>
+        </section>
+        
+        <!----Contents-->
+       <section class="services">
+           <h1>Pick a Service That Fits You</h1>
+        <div class="row">
+            <div class="service-col">
+                <h3> Basic</h3>
+                <p>300 premium quality pictures</p>
+                <p>Free raw pictures</p>
+                <p>200 edited pictures</p>
+                <p>Rp.4.000.000,00-</p>
+            </div>
+
+            <div class="service-col">
+                <h3> Standard</h3>
+                <p>600 premium quality pictures</p>
+                <p>Free raw pictures</p>
+                <p>500 edited pictures</p>
+                <p>Rp.7.000.000,00-</p>
+            </div>
+
+            <div class="service-col">
+                <h3> Premium</h3>
+                <p>1000 premium quality pictures</p>
+                <p>Free raw pictures</p>
+                <p>Full edited pictures</p>
+                <p>Get 10% discount for the next service</p>
+                <p>Rp.12.000.000,00-</p>
+            </div>
+        </div>
+       </section>
+
+
+
+        <!--Footer-->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>The Number One Photography Service in Indonesia Since 2008</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Arts, Love, Passion, Memories</p>
+            <i class="fa fa-paint-brush" style="font-size: 1.5em;"></i>
+        </section>
+
+
+
+        <!-- Java Script for Toggle Menu-->>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            /* Make the menu visible by changing right to 0*/
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            /* Hide the menu back by changing right to -200 pixel*/
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

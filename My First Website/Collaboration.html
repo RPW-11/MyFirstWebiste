@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Rai's Gallery</title>
+        <link rel="stylesheet" href="firstweb.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header3">
+            <nav>
+                <a href="myfirstwebsite.html"><img src="IMAGES/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="myfirstwebsite.html">Home</a></li>
+                        <li><a href="CompanyProfile.html">Profile</a></li>
+                        <li><a href="Services.html">Services</a></li>
+                        <li><a href="Collaboration.html">Collaboration</a></li>
+                        <li><a href="Creator.html">Creator</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Collaborate With Us</h1>
+        </section>
+        
+        <!----Contents-->
+       <section class="collab">
+           <h1>Shine Together by Collaborating With Us!</h1>
+           <div class="row">
+                <div class="collab-pic">
+                    <img src="IMAGES/event1.jpg">
+                    <p> Bon Jovi Concert 2014</p>
+                </div>
+                <div class="collab-pic">
+                    <img src="IMAGES/event2.jpg">
+                    <p> Beautify Cosmetic Photoshoot</p>
+                </div>
+                <div class="collab-pic">
+                    <img src="IMAGES/event3.jpg">
+                    <p> When We Are Young Concert</p>
+                </div>
+           </div>
+           <div class="collab-txt">
+               <p style="text-indent: 40px;">For the past couple years, we've had so many collaborations with huge companies and event organizers
+                   such as Beautify Cosmetic, Adiddas, Bon Jovi concert held by Crusade, When We Are Young
+                   concert held by EmoNite, and many more. We've documented those events perfectly and they were 
+                   extremely happy with the result.
+               </p>
+               <p style="text-indent: 40px;">Here's some benefits that your company will get by collaborating with us:</p>
+               <ul>
+                   <li><b>Fully Documented Event.</b></li>
+                   <p>Your event or product photoshoot will not have any limits of how many photos that are taken.</p>
+                   <li><b>Premium Quality Photos.</b></li>
+                   <p>Our team consists of professionals in photography which have been in this field for many years.
+                    For this reason, we're always able to put out the best quality photos. This has been
+                proven by the amount of collaborations we've had with huge companies for the past couple years.</p>
+                <li><b>Gain More Exposure by Collaborating With Us.</b></li>
+                   <p>The event or photoshoot will be posted on our social medias. Therefore your event or product
+                       would potentially gain more exposure.
+                   </p>
+               </ul>
+               <div class="contact-collab">
+                   <p> For further information, please contact us through the email down below:</p>
+                   <div class="contact-email"><i class="fa fa-envelope"></i> 
+                    <h5>amertaadiwarna@gmail.com</h5>
+                </div>
+               </div>
+           </div>
+       </section>
+
+
+
+        <!--Footer-->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>The Number One Photography Service in Indonesia Since 2008</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Arts, Love, Passion, Memories</p>
+            <i class="fa fa-paint-brush" style="font-size: 1.5em;"></i>
+        </section>
+
+
+
+        <!-- Java Script for Toggle Menu-->>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            /* Make the menu visible by changing right to 0*/
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            /* Hide the menu back by changing right to -200 pixel*/
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
