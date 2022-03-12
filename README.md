@@ -4,4 +4,4 @@ I used HTML and CSS to make this website.
 <br>
 Check MyFirstWebsite folder for the source codes
 <br>
-Website: [Rai's Gallery](rainataputra.online)
+Website: (rainataputra.online)
